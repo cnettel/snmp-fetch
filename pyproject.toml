@@ -19,7 +19,6 @@ numpy = ">=1.16"
 pandas = ">=0.25"
 attrs = ">=19.1"
 toolz = ">=0.10.0"
-setuptools = ">=42.0.0"
 jupyterlab = {version = ">=1.1", optional = true}
 distributed = {version = ">=2.6", optional = true}
 
@@ -41,5 +40,5 @@ snmpsim = "^0.4.7"
 notebooks = ["jupyterlab", "distributed"]
 
 [build-system]
-requires = ["poetry>=0.12"]
+requires = ["poetry>=0.12", "setuptools"]
 build-backend = "poetry.masonry.api"
